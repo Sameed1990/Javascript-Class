@@ -1,0 +1,58 @@
+<script>
+    // WHAT IS ARRAY ?
+    // we store multiple data in array
+    
+    
+    //SYNTAX
+    // var array = []  in large bracket
+    // this is simple array
+    // indexing always starts from 0
+    // length always starts from 1
+    //indexing             0                1             2   
+    var StudentData = ["Sameed" , "Muhammad Niaz khan" , 12 ];
+    console.log(StudentData);
+    console.log(StudentData[1]);
+
+    // functions in array 
+    //pop , push , shift , unshift , splice , split , reverse , join
+
+
+    //PUSH
+    // array k last me data add krna
+    // EXAMPLE
+    var StudentData2 = ["Ali" , " Nazeer Haider"];
+    console.log("Before Push" ,StudentData2);
+    StudentData2.push(16)
+    console.log("After Push" , StudentData2);
+
+
+        //POP
+    // array k last me data remove krdeta ha 
+    // EXAMPLE
+    var StudentData2 = ["Ali" , " Nazeer Haider"];
+    console.log("Before pop" ,StudentData2);
+    StudentData2.pop()
+    console.log("After pop" , StudentData2);
+    
+   
+var LoveBirds = "Zohaib Sameed Ali"; // wow , mam , madam
+var Split = LoveBirds.split(" ")  //["Zohaib" , "Sameed" , "Ali"]
+console.log(Split);
+
+var Reverse = Split.reverse()  // ["ALi" , "Sameed" , "Zohaib"]
+console.log(Reverse);
+
+var Join = Reverse.join(" ") // "Ali Sameed Zohaib"
+console.log(Join);
+
+
+
+var value = prompt("Enter Name") 
+
+if(value == "ava adam"){
+    alert(value + "is correct")
+}else{
+    alert(value + "is wrong")
+}
+
+</script>
